@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const View = ({text}) => {
+const ShowText = (props) => {
     return (
         <div>
-            {text}
+            {props.text}
         </div>
     )
 }
 
-export default View;
+export default ShowText;

@@ -1,3 +1,3 @@
-import View from './components/View';
+import ShowText from './components/ShowText';
 
-export { View };
+export { ShowText };

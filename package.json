@@ -1,7 +1,17 @@
 {
   "name": "yuting-npm-test",
-  "version": "0.1.0",
-  "private": true,
+  "description": "yuting npm test",
+  "author": "yuting, Tim",
+  "keywords": ["react", "components"],
+  "version": "0.1.1",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": ["dist", "README.md"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuting3656/yuting-npm-test.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.14.1",

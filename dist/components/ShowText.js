@@ -9,12 +9,9 @@ var _react = _interopRequireDefault(require("react"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const View = _ref => {
-  let {
-    text
-  } = _ref;
-  return /*#__PURE__*/_react.default.createElement("div", null, text);
+const ShowText = props => {
+  return /*#__PURE__*/_react.default.createElement("div", null, props.text);
 };
 
-var _default = View;
+var _default = ShowText;
 exports.default = _default;
