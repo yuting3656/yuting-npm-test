@@ -4,7 +4,7 @@ import ImgList from "./ImgList";
 //
 // IMPORT ZONE
 //
-const YutingButton = () => {
+const TaiwanNo1 = () => {
   return (
     <div
       style={{
@@ -23,4 +23,4 @@ const YutingButton = () => {
   );
 };
 
-export default YutingButton;
+export default TaiwanNo1;
